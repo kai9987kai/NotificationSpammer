@@ -1,5 +1,4 @@
 import win10toast
-import keyboard
 from tkinter import *
 from tkinter import Menu
 
