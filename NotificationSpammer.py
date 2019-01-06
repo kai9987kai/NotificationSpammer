@@ -5,6 +5,9 @@ from tkinter import messagebox
 import keyboard
 import webbrowser
 
+def update():
+    window.update()
+
 def Email():
     messagebox.showinfo('CONTACT', 'Email-One: kai9987kai@gmail.com \nEmail-Two:kai.piper@aol.co.uk')
 
@@ -17,6 +20,7 @@ def EXITME():
 def Spam():
     running = True
     while running:
+        update()
         toaster = win10toast.ToastNotifier()
         toaster.show_toast("Spam", "Spam", duration=1, threaded=True)
         if keyboard.is_pressed('ctrl + c'):
