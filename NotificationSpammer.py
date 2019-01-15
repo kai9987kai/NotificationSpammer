@@ -15,8 +15,9 @@ def callback():
     webbrowser.open_new(r"https://github.com/kai9987kai/NotificationSpammer")
 
 def EXITME():
-    exit(0)  # crashed prog so it closes
-    # strtoint("crashmE!")
+    running = False
+    window.destroy()
+    
 def Spam():
     running = True
     while running:
@@ -49,4 +50,3 @@ window.config(menu=menu)
 window.resizable(False, False)
 window.iconbitmap('favicon.ico')  # Set icon
 window.mainloop()
-#Close The Script to stop
