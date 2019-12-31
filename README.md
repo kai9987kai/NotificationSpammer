@@ -3,5 +3,5 @@ NotificationSpammer spams windows notification Modules need: win10toast, webbrow
 
 
 
-![](https://kai9987kai.github.io/Capture.PNG)
+![](https://raw.githubusercontent.com/kai9987kai/kai9987kai.github.io/master/Screenshots/Capture.PNG)
  
